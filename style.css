@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? família=Roupa:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212,45%,89%);
+    min-height: 100vh;
+    display:flex;
+    align-items: 15px;
+
+}
+.container{
+    
+    margin:0 auto;
+    padding:1rem 1rem 1.5rem;
+    background-color: white;
+    border-radius: 12px;
+    text-align:center;
+
+}
+.container img{
+    width:100%;
+    border-radius: 15px;
+}
+.container h2{
+    font-weight:700;
+    padding:1rem;
+}
+.container p{
+    font-weight:400;
+    margin: 0 22px;
+
+}
+.attibution{
+    font:15px;
+    text-align:center;
+}
+
+
+
+.card img{
+    background-color: #fff;
+    padding: 18px;
+    border-radius:25px;
+    text-align: center;
+    margin:0 1rem
+}
+
+
+.card img {
+    width:100%;
+    border-radius: 15px;
+}
+
+.text{
+    padding:22px 10px;
+
+}
+.text h2{
+    color: hsl(218,44%, 22%);
+    padding-bottom:15px;
+
+}
+.text p{
+    color: hsl(220,15%,55%);
+}
